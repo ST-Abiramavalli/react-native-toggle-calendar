@@ -4,9 +4,9 @@ import {
   View,
   Dimensions,
   Animated,
-  ViewPropTypes,
 } from 'react-native';
 import PropTypes from 'prop-types';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import XDate from 'xdate';
 
 import {parseDate, xdateToData} from '../interface';
